@@ -36,9 +36,9 @@ a {
     justify-content: center;
     align-items: top;
     flex: 1;
-    margin: 4em 0;
+    margin: 2em 0;
     width: 100%;
-    max-width: 1095px;
+    max-width: 600px;
     /* background-color: #3ba8d4; */
     padding: 10px 0px;
 }

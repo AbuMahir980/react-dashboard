@@ -14,7 +14,7 @@ const Dashboard = (props) => {
     // console.log(user.username)
     return(
         <>
-            <div id="contents">
+            <div className="content">
                 <Header user={Userprofile}/>
                 <Sidebar />
                 <main className="content">
