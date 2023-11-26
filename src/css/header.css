@@ -5,17 +5,17 @@
     left: 0;
     width: 100%;
     height: 4em;
-    background-color: #f6f4fc;
+    background-color: #231E39;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1.5em;
-    border-bottom: 1px solid #3ba8d4;
+    border-bottom: 1px solid whitesmoke;
 }
 
 .header-user {
     font-size: 1.2em;
-    color: #3ba8d4;
+    color: whitesmoke;
 }
 
 .header-user > i {
