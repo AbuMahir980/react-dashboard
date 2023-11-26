@@ -1,0 +1,24 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4em;
+    background-color: #f6f4fc;
+    border-top: 1px solid #b3b3b3;
+}
+
+.footer_sign {
+    position: absolute;
+    top: 50%;
+    right: 1em;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.footer_sign span,
+a {
+    color: #49c1c3;
+    text-decoration: none;
+}
