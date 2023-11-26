@@ -2,7 +2,9 @@
 
 body {
     font: 400 14px Roboto, sans-serif;
-    background: #f6f4fc;
+    /* background: #f6f4fc; */
+    background: #1f1157;
+    color: whitesmoke;
     -webkit-font-smoothing: antialiased;
     margin: 0;
     padding: 0;
@@ -30,10 +32,28 @@ a {
 
 .content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: top;
     flex: 1;
-    margin: 5.5em 0;
+    margin: 4em 0;
     width: 100%;
-    min-width: 260px;
+    max-width: 1095px;
+    /* background-color: #3ba8d4; */
+    padding: 10px 0px;
+}
+
+.content .mini-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.content .content-mini {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto 20px;
+    background-color: ;
 }
