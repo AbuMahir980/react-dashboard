@@ -6,6 +6,8 @@ import Chart from '../../assets/dashboard-chart.png';
 import Barchart from '../../assets/dashboard-barchart.png';
 import Graph from '../../assets/dashboard-graph1.png';
 import Piechart from '../../assets/dashboard-piechart.png';
+
+
 const Dashboard = (props) => {
 
     const {user} = props
