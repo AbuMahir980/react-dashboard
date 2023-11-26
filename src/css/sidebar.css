@@ -16,6 +16,7 @@
     height: 100%;
     background: #231E39;
     font-size: 1.2em;
+    border-right: 2px solid whitesmoke;
 }
 
 .active {
@@ -62,7 +63,7 @@
 .sidebar-list-item:hover {
     background: whitesmoke;
     color: #231E39;
-    border-right: 2px solid #624bc4;
+    border-right: 2px solid wheat;
 }
 
 .sidebar-list-item > i {
