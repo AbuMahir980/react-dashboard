@@ -8,6 +8,7 @@ import {
 
 import Login from './components/Login/Login';
 import Signup from './components/Signup/Signup';
+import Dashboard from './components/Dashboard/Dashboard'
 
 const router = createBrowserRouter([
   {
@@ -22,10 +23,10 @@ const router = createBrowserRouter([
     path: "/signup",
     element: <Signup />,
   },
-  // {
-  //   path: "/dashboard",
-  //   element: <Dashboard />,
-  // },
+  {
+    path: "/dashboard",
+    element: <Dashboard />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
