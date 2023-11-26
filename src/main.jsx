@@ -9,6 +9,7 @@ import {
 import Login from './components/Login/Login';
 import Signup from './components/Signup/Signup';
 import Dashboard from './components/Dashboard/Dashboard'
+import Userprofile from './components/Dashboard/datas/Userprofile'
 
 const router = createBrowserRouter([
   {
@@ -25,7 +26,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/dashboard",
-    element: <Dashboard />,
+    element: <Dashboard user={Userprofile}/>,
   },
 ]);
 
