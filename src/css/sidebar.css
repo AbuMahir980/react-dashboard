@@ -19,11 +19,11 @@
     border-right: 2px solid whitesmoke;
 }
 
-.active {
+/* .active {
     /* color: #231E39; */
     /* background-color: wheat; */
     /* border-right: 2px solid whitesmoke; */
-}
+/* } */ 
 
 .sidebar:hover,
 .sidebar:focus,
