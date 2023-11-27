@@ -60,12 +60,17 @@
     transform: translateY(-50%);
 }
 
+
 .sidebar-list-item:hover {
     background: whitesmoke;
     color: #231E39;
     border-right: 2px solid wheat;
 }
 
+
+/* .sidebar-list-item:active{
+    background-color: ;
+} */
 .sidebar-list-item > i {
     position: absolute;
     top: 0;
