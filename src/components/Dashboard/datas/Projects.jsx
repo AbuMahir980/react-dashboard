@@ -1,4 +1,4 @@
-const projectsData = [
+export const projectsData = [
     {
         id: 1,
         name: 'Project Alpha',
@@ -75,7 +75,7 @@ const projectsData = [
         id: 9,
         name: 'Project Sagitarius',
         description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        status: 'Completed',
+        status: 'On Hold',
         startDate: '2023-02-15',
         endDate: '2023-04-25',
         manager: 'Bob Smith',
