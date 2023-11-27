@@ -10,6 +10,7 @@ import Login from './components/Login/Login';
 import Signup from './components/Signup/Signup';
 import Dashboard from './components/Dashboard/Dashboard'
 import Userprofile from './components/Dashboard/datas/Userprofile'
+import Users from './components/Dashboard/Users'
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "/dashboard",
     element: <Dashboard user={Userprofile}/>,
+  },
+  {
+    path: "/dashboard/users",
+    element: <Users user={Userprofile}/>,
   },
 ]);
 

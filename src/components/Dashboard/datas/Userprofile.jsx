@@ -1,9 +1,11 @@
+// import HeadShot from '../../../assets/Qudus-Lawal_head-shot.png'
 const Userprofile = {
     userId: 1,
     username: 'abu_mahir',
     fullName: 'Qudus Lawal',
     email: 'takechargeofyourfuture2021@gmail.com',
-    avatar: 'path/to/avatar.jpg',
+    // avatar: {HeadShot},
+    imageSize: 100,
     bio: 'Passionate about technology and coding!',
     role: 'Software Engineer',
     joinedAt: '2023-01-15',
