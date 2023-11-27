@@ -3,6 +3,7 @@ import Sidebar from "./components/Sidebar";
 import Footer from "./components/Footer";
 import Userprofile from "./data/data";
 import { eventsData } from "./data/EventsData";
+import EventsTable from "./components/EventsTable";
 
 const Events = (props) => {
     const {user} = props
@@ -27,8 +28,10 @@ const Events = (props) => {
                             </thead>
 
                             <tbody>
+                                
+                                
                                 {/* <!-- Replace the content inside the tbody with your dynamic project data --> */}
-                                <tr>
+                                {/* <tr>
                                     <td>{eventsData[0].id}</td>
                                     <td>{eventsData[0].date}</td>
                                     <td>{eventsData[0].eventName}</td>
@@ -63,9 +66,14 @@ const Events = (props) => {
                                     <td>{eventsData[4].eventName}</td>
                                     <td>{eventsData[4].eventDescription}</td>
                                     <td>{eventsData[4].location}</td>
-                                </tr>
+                                </tr> */}
 
                                 {/* <!-- Add more rows for additional project data --> */}
+                            </tbody>
+                            <tbody>
+                                {
+                                    eventsData.map((table, i) => (<EventsTable key={i} {...table}/>))
+                                }
                             </tbody>
                         </table>
                     </div>

@@ -34,5 +34,40 @@ export const eventsData = [
         eventDescription: 'Bringing the biggest hackathon coding events to Lagos.',
         location: 'Eko Hotels',
     },
+    {
+        id: 6,
+        date: '2023-08-25',
+        eventName: 'Hackathon Lagos',
+        eventDescription: 'Bringing the biggest hackathon coding events to Lagos.',
+        location: 'Eko Hotels',
+    },
+    {
+        id: 7,
+        date: '2023-08-25',
+        eventName: 'Hackathon Lagos',
+        eventDescription: 'Bringing the biggest hackathon coding events to Lagos.',
+        location: 'Eko Hotels',
+    },
+    {
+        id: 8,
+        date: '2023-08-25',
+        eventName: 'Hackathon Lagos',
+        eventDescription: 'Bringing the biggest hackathon coding events to Lagos.',
+        location: 'Eko Hotels',
+    },
+    {
+        id: 9,
+        date: '2023-08-25',
+        eventName: 'Hackathon Lagos',
+        eventDescription: 'Bringing the biggest hackathon coding events to Lagos.',
+        location: 'Eko Hotels',
+    },
+    {
+        id: 10,
+        date: '2023-08-25',
+        eventName: 'Hackathon Lagos',
+        eventDescription: 'Bringing the biggest hackathon coding events to Lagos.',
+        location: 'Eko Hotels',
+    },
     // Add more event objects as needed
 ];
