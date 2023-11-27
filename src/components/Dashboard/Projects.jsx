@@ -1,8 +1,8 @@
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import Footer from "./components/Footer";
-import Userprofile from "./datas/Userprofile";
-import { projectsData } from "./datas/Projects";
+import Userprofile from "./data/data";
+import { projectsData } from "./data/Projects";
 
 const Projects = (props) => {
     const {user} = props
@@ -112,15 +112,6 @@ const Projects = (props) => {
                                     <td>{projectsData[8].endDate}</td>
                                     <td>{projectsData[8].manager}</td>
                                 </tr>
-                                {/* <tr>
-                                    {/* <td>{projectsData[9].id}</td>
-                                    <td>{projectsData[9].name}</td>
-                                    <td>{projectsData[9].description}</td>
-                                    <td>{projectsData[9].status}</td>
-                                    <td>{projectsData[9].startDate}</td>
-                                    <td>{projectsData[9].endDate}</td>
-                                    <td>{projectsData[9].manager}</td> */}
-                                {/* </tr> */} 
                                 {/* <!-- Add more rows for additional project data --> */}
                             </tbody>
                         </table>

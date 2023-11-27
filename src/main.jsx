@@ -9,9 +9,10 @@ import {
 import Login from './components/Login/Login';
 import Signup from './components/Signup/Signup';
 import Dashboard from './components/Dashboard/Dashboard'
-import Userprofile from './components/Dashboard/datas/Userprofile'
+import Userprofile from './components/Dashboard/data/data'
 import Users from './components/Dashboard/Users'
 import Projects from './components/Dashboard/Projects';
+import Events from './components/Dashboard/Events';
 
 const router = createBrowserRouter([
   {
@@ -38,10 +39,10 @@ const router = createBrowserRouter([
     path: "/dashboard/projects",
     element: <Projects />,
   },
-  // {
-  //   path: "/dashboard/events",
-  //   element: <Events />,
-  // },
+  {
+    path: "/dashboard/events",
+    element: <Events />,
+  },
   // {
   //   path: "/dashboard/preferences",
   //   element: <Preferences />,

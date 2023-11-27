@@ -1,7 +1,7 @@
 import Header from "./components/Header"
 import Sidebar from "./components/Sidebar"
 import Footer from "./components/Footer"
-import Userprofile from "./datas/Userprofile"
+import Userprofile from "./data/data"
 import HeadShot from '../../assets/Qudus-Lawal_head-shot.png'
 import '../../css/users.css'
 
