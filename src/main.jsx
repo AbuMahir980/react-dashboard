@@ -33,6 +33,26 @@ const router = createBrowserRouter([
     path: "/dashboard/users",
     element: <Users user={Userprofile}/>,
   },
+  // {
+  //   path: "/dashboard/projects",
+  //   element: <Projects />,
+  // },
+  // {
+  //   path: "/dashboard/events",
+  //   element: <Events />,
+  // },
+  // {
+  //   path: "/dashboard/preferences",
+  //   element: <Preferences />,
+  // },
+  // {
+  //   path: "/dashboard/feedback",
+  //   element: <Feedback />,
+  // },
+  // {
+  //   path: "/dashboard/suggestions",
+  //   element: <Suggestions />,
+  // },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
