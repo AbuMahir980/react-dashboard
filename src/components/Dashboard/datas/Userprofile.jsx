@@ -5,7 +5,7 @@ const Userprofile = {
     fullName: 'Qudus Lawal',
     email: 'takechargeofyourfuture2021@gmail.com',
     // avatar: {HeadShot},
-    imageSize: 100,
+    imageSize: 130,
     bio: 'Passionate about technology and coding!',
     role: 'Software Engineer',
     joinedAt: '2023-01-15',
