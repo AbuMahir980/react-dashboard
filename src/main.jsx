@@ -11,6 +11,7 @@ import Signup from './components/Signup/Signup';
 import Dashboard from './components/Dashboard/Dashboard'
 import Userprofile from './components/Dashboard/datas/Userprofile'
 import Users from './components/Dashboard/Users'
+import Projects from './components/Dashboard/Projects';
 
 const router = createBrowserRouter([
   {
@@ -33,10 +34,10 @@ const router = createBrowserRouter([
     path: "/dashboard/users",
     element: <Users user={Userprofile}/>,
   },
-  // {
-  //   path: "/dashboard/projects",
-  //   element: <Projects />,
-  // },
+  {
+    path: "/dashboard/projects",
+    element: <Projects />,
+  },
   // {
   //   path: "/dashboard/events",
   //   element: <Events />,
